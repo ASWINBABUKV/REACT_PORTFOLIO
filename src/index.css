@@ -29,11 +29,20 @@ ul {
   cursor: pointer;
 }
 .btn-light {
-  background: transparent;
-  color: white;
+  padding: 12px 32px;
+  font-size: 1rem;
+  background: rgb(185, 17, 121);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  cursor: pointer;
 }
 .btn:hover {
-  background: grey;
+  background: rgb(69, 122, 144);
+  color: white;
+  transition: 0.3s;
+}
+.btn-light:hover {
+  background: rgb(69, 122, 144);
   color: white;
   transition: 0.3s;
 }
