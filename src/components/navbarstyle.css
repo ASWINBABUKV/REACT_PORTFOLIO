@@ -21,6 +21,10 @@
   font-size: 1.2rem;
   font-weight: 650;
 }
+.nav-menu a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
 .hamburger {
   display: none;
 }
