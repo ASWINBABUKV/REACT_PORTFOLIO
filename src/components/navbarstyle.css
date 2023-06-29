@@ -1,3 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1 rem;
+}
+
 .nav-menu {
   display: flex;
 }
@@ -9,4 +16,49 @@
 .nav-menu li a {
   font-size: 1.2rem;
   font-weight: 650;
+}
+.hamburger {
+  display: none;
+}
+
+.nav-menu.open {
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 0;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slide-in 0.3s ease-in, fade-in 0.3s ease-in;
+  transform-origin: top right;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .nav-menu {
+    display: none;
+  }
+  .hamburger {
+    display: initial;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+  }
 }
