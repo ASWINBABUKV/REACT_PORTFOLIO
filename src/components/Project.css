@@ -1,48 +1,62 @@
+.project-content {
+  width: 100%;
+  height: 100vh;
+  margin-top: 50px;
+}
+.projectcontainer {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
 .project-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   width: 100%;
-  height: 99.6vh;
-  gap: 14px;
-  position: relative;
+  padding: 20px;
 }
 .project1 {
   border: 1px solid #444040;
   padding: 0.2px;
   width: 300px;
-  height: 380px;
+  height: 360px;
   text-align: center;
   margin: 7px;
   overflow: hidden;
+  position: relative;
 }
 .project1 img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
   transition: opacity 0.3s;
 }
 
-.project1 h1 {
-  margin: 10px 0;
-  font-size: 1.5rem;
-}
-.project1 p {
-  margin: 10px 0;
-  font-size: 1rem;
-}
-.projectcontainer {
-  justify-content: center;
-  text-align: center;
-}
 .project1:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 .project1:hover img {
-  opacity: 0.7;
+  opacity: 0.3;
 }
 .project1:hover .project-overlay {
   opacity: 1;
 }
-
+.project-overlay h1,
+.project-overlay p {
+  display: none;
+}
+.project1:hover .project-overlay h1 {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  display: block;
+}
+.project1:hover .project-overlay p {
+  margin: 10px 0;
+  font-size: 1rem;
+  display: block;
+}
 .project-overlay {
   position: absolute;
   top: 50%;
@@ -52,4 +66,20 @@
   transition: opacity 0.7s;
   background-color: transparent;
   padding: 10px;
+}
+
+.btn1 {
+  display: inline-block;
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: yellow;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn1:hover {
+  background: rgb(214, 56, 138);
+  color: white;
+  transition: 0.3s;
 }

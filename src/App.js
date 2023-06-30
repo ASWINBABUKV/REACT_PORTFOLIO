@@ -3,6 +3,7 @@ import "./index.css";
 import NavBar from "./components/NavBar";
 import Who from "./components/Who";
 import Project from "./components/Project";
+
 function App() {
   return (
     <>
