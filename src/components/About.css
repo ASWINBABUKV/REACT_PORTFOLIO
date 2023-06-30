@@ -1,6 +1,26 @@
-.project-content {
+.About-content {
   width: 100%;
   height: 100vh;
-  margin-top: 100px;
-  position: relative;
+  display: flex;
+}
+
+.aboutheader {
+  justify-content: center;
+}
+
+.aboutheader h1 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  justify-content: center;
+}
+.box {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: perspective(1000px) rotateX(2deg);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
 }
