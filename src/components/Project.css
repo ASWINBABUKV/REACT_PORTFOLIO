@@ -1,0 +1,55 @@
+.project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 99.6vh;
+  gap: 14px;
+  position: relative;
+}
+.project1 {
+  border: 1px solid #444040;
+  padding: 0.2px;
+  width: 300px;
+  height: 380px;
+  text-align: center;
+  margin: 7px;
+  overflow: hidden;
+}
+.project1 img {
+  width: 100%;
+  transition: opacity 0.3s;
+}
+
+.project1 h1 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+.project1 p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+.projectcontainer {
+  justify-content: center;
+  text-align: center;
+}
+.project1:hover {
+  transform: scale(1.1);
+}
+.project1:hover img {
+  opacity: 0.7;
+}
+.project1:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.4;
+  transition: opacity 0.7s;
+  background-color: transparent;
+  padding: 10px;
+}
