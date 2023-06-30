@@ -3,7 +3,7 @@ import "./Who.css";
 import { Link } from "react-router-dom";
 const Who = () => {
   return (
-    <div className="profile">
+    <div className="profile" id="home">
       <div className="mask">
         <img
           className="intro-img"

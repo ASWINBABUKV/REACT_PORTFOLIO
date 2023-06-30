@@ -3,13 +3,17 @@ import "./index.css";
 import NavBar from "./components/NavBar";
 import Who from "./components/Who";
 import Project from "./components/Project";
+import About from "./components/About";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Who />
-      <Project />
+      <main className="main">
+        <Who />
+        <Project />
+        <About />
+      </main>
     </>
   );
 }

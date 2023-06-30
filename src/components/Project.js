@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
-    <div className="project-content">
+    <div className="project-content" id="project">
       <div className="projectcontainer">
         <h1>PROJECTS</h1>
       </div>
@@ -15,7 +15,11 @@ const Project = () => {
             alt="proj1"
           ></img>
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -30,7 +34,11 @@ const Project = () => {
             alt="proj2"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -45,7 +53,11 @@ const Project = () => {
             alt="proj2"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -60,7 +72,11 @@ const Project = () => {
             alt="proj2"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -75,7 +91,11 @@ const Project = () => {
             alt="proj3"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -90,7 +110,11 @@ const Project = () => {
             alt="proj4"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -105,7 +129,11 @@ const Project = () => {
             alt="proj5"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>
@@ -114,13 +142,18 @@ const Project = () => {
             <p>Machine Learning</p>
           </div>
         </div>
+
         <div className="project1">
           <img
             src="https://img.freepik.com/premium-vector/facial-recognition-line-icon-biometric-face-scanning_116137-6905.jpg"
             alt="proj6"
           />
           <div className="projectsrc">
-            <Link to="/project" className="btn1">
+            <Link
+              to="https://github.com/ASWINBABUKV/SPAM_EMAIL_DETECTION.git "
+              target="_blank"
+              className="btn1"
+            >
               VIEW SRC
             </Link>
           </div>

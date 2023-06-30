@@ -10,9 +10,19 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
-      <Link to="/">
+    <div className={color ? "header header-bg" : "header"}>
+      <Link to="/home">
         <h1>Portfolio</h1>
       </Link>
       <div
@@ -23,10 +33,10 @@ const NavBar = () => {
       </div>
       <ul className={`nav-menu ${isOpen ? "open" : ""}`}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="#home">Home</Link>
         </li>
         <li>
-          <Link to="project">Project</Link>
+          <Link to="#project-content">Project</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
