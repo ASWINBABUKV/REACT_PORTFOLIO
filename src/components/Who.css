@@ -60,12 +60,11 @@
 }
 
 .icons > * {
-  font-size: 2rem; /* Adjust the size as desired */
+  font-size: 2rem;
   margin: 0 10px;
-  color: #ffffff; /* Change the color to your preferred color */
+  color: #ffffff;
 }
 
-/* If you want to change the color on hover */
 .icons > *:hover {
-  color: #3878d7; /* Change the hover color */
+  color: #3878d7;
 }

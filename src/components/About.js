@@ -33,9 +33,51 @@ const About = () => {
           </button>
         </div>
         <div className="content">
-          {activeTab === "Education" && <h2>Education Content</h2>}
-          {activeTab === "Home" && <h2>Home Content</h2>}
-          {activeTab === "Interest" && <h2>Interest Content</h2>}
+          {activeTab === "Education" && (
+            <div>
+              <div className="education-container">
+                <div className="education-item">
+                  <h3>Bachelor of Technology [CSE]</h3>
+                  <p>[AMRITA VISHWA VIDYAPEETHAM]</p>
+                </div>
+                <div className="education-item">
+                  <h3>Senior Secondary Education [GRADE 12]</h3>
+                  <p>[JAWAHAR NOVADAYA VIDYALAYA, MAHE]</p>
+                </div>
+                <div className="education-item">
+                  <h3>Secondary School [GRADE 10]</h3>
+                  <p>[JAWAHAR NOVADAYA VIDYALAYA, MAHE]</p>
+                </div>
+              </div>
+            </div>
+          )}
+          {activeTab === "Home" && (
+            <div>
+              <h2>Home Content</h2>
+              <p>Location: [Your Location]</p>
+            </div>
+          )}
+          {activeTab === "Interest" && (
+            <div>
+              <h2>Interest Content</h2>
+              <div>
+                <h3>Technical</h3>
+                <ul>
+                  <li>Web Development</li>
+                  <li>Machine Learning</li>
+                  <li>Data Science</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Non-Technical</h3>
+                <ul>
+                  <li>Cricket</li>
+                  <li>Football</li>
+                  <li>NCC</li>
+                </ul>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
