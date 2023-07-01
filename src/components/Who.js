@@ -24,7 +24,7 @@ const Who = () => {
       </div>
       <div className="content">
         <h1>ASWIN BABU K V</h1>
-        <p>WEB DEVELOPER</p>
+        <p>SOFTWARE ENGINEER</p>
         <div>
           <Link to="/project" className="btn">
             PROJECTS

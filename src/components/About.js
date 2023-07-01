@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./About.css";
 const About = () => {
-  const [activeTab, setActiveTab] = useState("Home");
+  const [activeTab, setActiveTab] = useState("Interest");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -20,16 +20,16 @@ const About = () => {
             Education
           </button>
           <button
-            className={activeTab === "Home" ? "active" : ""}
-            onClick={() => handleTabClick("Home")}
-          >
-            Home
-          </button>
-          <button
             className={activeTab === "Interest" ? "active" : ""}
             onClick={() => handleTabClick("Interest")}
           >
             Interest
+          </button>
+          <button
+            className={activeTab === "Home" ? "active" : ""}
+            onClick={() => handleTabClick("Home")}
+          >
+            Home
           </button>
         </div>
         <div className="content">
@@ -53,28 +53,49 @@ const About = () => {
           )}
           {activeTab === "Home" && (
             <div>
-              <h2>Home Content</h2>
-              <p>Location: [Your Location]</p>
+              <div class="box2">
+                <div class="content">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2WQJHN0YuGtcJNL2dKNvATdwfjPcE7ghD6VyYVtvX5yALq8JuczLEaTBZHtdzE-meP8&usqp=CAU"
+                    alt="Home"
+                    class="home-image"
+                  />
+                  <div class="location">
+                    <p>KANNUR, KERALA, INDIA</p>
+                    <a
+                      href="https://goo.gl/maps/Jdyned8rnNYbAkTR7"
+                      target="_blank"
+                      class="map-button"
+                      rel="noreferrer"
+                    >
+                      View on Google Maps
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           )}
           {activeTab === "Interest" && (
             <div>
-              <h2>Interest Content</h2>
-              <div>
-                <h3>Technical</h3>
-                <ul>
-                  <li>Web Development</li>
-                  <li>Machine Learning</li>
-                  <li>Data Science</li>
-                </ul>
-              </div>
-              <div>
-                <h3>Non-Technical</h3>
-                <ul>
-                  <li>Cricket</li>
-                  <li>Football</li>
-                  <li>NCC</li>
-                </ul>
+              <div class="container">
+                <div class="column">
+                  <h3>Technical</h3>
+                  <ul>
+                    <li className="Box1">Web Development</li>
+                    <li className="Box1">Machine Learning</li>
+                    <li className="Box1">Artificial Intelligence</li>
+                    <li className="Box1">Competitive Programming</li>
+                  </ul>
+                </div>
+                <div class="column">
+                  <h3>Non-Technical</h3>
+                  <ul>
+                    <li className="Box1">Cricket</li>
+                    <li className="Box1"> Football</li>
+                    <li className="Box1">NCC</li>
+                    <li className="Box1">Scout and Guides</li>
+                  </ul>
+                </div>
               </div>
             </div>
           )}
