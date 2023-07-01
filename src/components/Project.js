@@ -30,7 +30,7 @@ const Project = () => {
         </div>
         <div className="project1">
           <img
-            src="https://thumbs.dreamstime.com/b/email-vires-protection-outline-icon-elements-security-neon-style-icons-simple-websites-web-design-mobile-app-info-188760138.jpg"
+            src="https://blog.verisign.com/wp-content/uploads/VRSN_CompanyBrandedEmail_BlogImage8_201712-670x446.png"
             alt="proj2"
           />
           <div className="projectsrc">
@@ -49,7 +49,7 @@ const Project = () => {
         </div>
         <div className="project1">
           <img
-            src="https://thumbs.dreamstime.com/b/email-vires-protection-outline-icon-elements-security-neon-style-icons-simple-websites-web-design-mobile-app-info-188760138.jpg"
+            src="https://www.ict.eu/sites/corporate/files/images/ICTGroup-TopDesk%20Touch%20digital%20screen-1115581565_edit%20copy%20%281%29_3.jpg"
             alt="proj2"
           />
           <div className="projectsrc">
@@ -62,13 +62,13 @@ const Project = () => {
             </Link>
           </div>
           <div className="project-overlay">
-            <h1>Spam Email Detection</h1>
-            <p>Machine Learning</p>
+            <h1>ICT Service Management</h1>
+            <p>Java</p>
           </div>
         </div>
         <div className="project1">
           <img
-            src="https://thumbs.dreamstime.com/b/email-vires-protection-outline-icon-elements-security-neon-style-icons-simple-websites-web-design-mobile-app-info-188760138.jpg"
+            src="https://assets-global.website-files.com/5fcff9094e6ad8e939c7fa3a/63a0cd919176545277812da9_CRM_%20Housing%20market%20predictions%202023.png"
             alt="proj2"
           />
           <div className="projectsrc">
@@ -81,8 +81,8 @@ const Project = () => {
             </Link>
           </div>
           <div className="project-overlay">
-            <h1>Spam Email Detection</h1>
-            <p>Machine Learning</p>
+            <h1>Hpuse Price Prediction</h1>
+            <p>Data Science</p>
           </div>
         </div>
         <div className="project1">

@@ -52,3 +52,20 @@
     padding: 0 0 1.5rem;
   }
 }
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icons > * {
+  font-size: 2rem; /* Adjust the size as desired */
+  margin: 0 10px;
+  color: #ffffff; /* Change the color to your preferred color */
+}
+
+/* If you want to change the color on hover */
+.icons > *:hover {
+  color: #3878d7; /* Change the hover color */
+}
