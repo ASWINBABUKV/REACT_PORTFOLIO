@@ -56,7 +56,7 @@ const About = () => {
               <div class="box2">
                 <div class="content">
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv2WQJHN0YuGtcJNL2dKNvATdwfjPcE7ghD6VyYVtvX5yALq8JuczLEaTBZHtdzE-meP8&usqp=CAU"
+                    src="https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-home-vector-icon-png-image_711733.jpg"
                     alt="Home"
                     class="home-image"
                   />

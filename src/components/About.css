@@ -11,7 +11,6 @@
 .aboutheader {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
 }
 
 .aboutheader h1 {
@@ -76,7 +75,7 @@
   width: 450px;
   padding: 20px;
   margin-bottom: 20px;
-  background-color: #10d5d1;
+  background-color: #27322f;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
@@ -90,11 +89,12 @@
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 10px;
+  color: #26d96e;
 }
 
 .education-item p {
   font-size: 1rem;
-  color: #555555;
+  color: #57d4a7;
 }
 .container {
   display: flex;
@@ -155,6 +155,7 @@ li:hover {
   margin-bottom: 20px;
   opacity: 0.5;
   height: 250px;
+  border-radius: 125px;
 }
 .map-button {
   margin: 20px 20px;

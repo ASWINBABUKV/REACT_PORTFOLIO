@@ -13,7 +13,10 @@
   object-fit: cover;
 }
 body {
-  background-color: black;
+  background-image: url("../src/assets/bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 h1,
 h4,
